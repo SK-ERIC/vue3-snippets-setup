@@ -1,0 +1,82 @@
+{
+  "Vue3 onMounted": {
+    "prefix": ["onMounted"],
+    "body": ["onMounted(()=>{", "\t$0", "})"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 onUnmounted": {
+    "prefix": ["onUnmounted"],
+    "body": ["onUnmounted(()=>{", "\t", "})"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 onActivated": {
+    "prefix": ["onActivated"],
+    "body": ["onActivated(()=>{", "\t", "})"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 onDeactivated": {
+    "prefix": ["onDeactivated"],
+    "body": ["onDeactivated(()=>{", "\t", "})"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 ref": {
+    "prefix": ["ref"],
+    "body": ["const $1 = ref($2)"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 reactive": {
+    "prefix": ["reactive"],
+    "body": ["const $1 = reactive($2)"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 toRefs": {
+    "prefix": ["toRefs"],
+    "body": ["const $1 = toRefs($2)"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 toRef": {
+    "prefix": ["toRef"],
+    "body": ["const $1 = toRef($2, $3)"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 computed": {
+    "prefix": ["computed"],
+    "body": ["const $1 = computed(()=>$2)"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 provide": {
+    "prefix": ["provide"],
+    "body": ["provide($1, $2)"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 inject": {
+    "prefix": ["inject"],
+    "body": ["const $1 = inject($2)"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 watch": {
+    "prefix": ["watch"],
+    "body": ["watch($1, ()=>{", "\t$2", "})"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 nextTick": {
+    "prefix": ["nextTick"],
+    "body": ["nextTick(()=>{", "\t$0", "})"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 defineProps": {
+    "prefix": ["defineProps"],
+    "body": ["const $1 = defineProps($2)"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 defineEmits": {
+    "prefix": ["defineEmits"],
+    "body": ["const $1 = defineEmits($2)"],
+    "description": "Vue3 composition API"
+  },
+  "Vue3 defineExpose": {
+    "prefix": ["defineExpose"],
+    "body": ["defineExpose()"],
+    "description": "Vue3 composition API"
+  }
+}

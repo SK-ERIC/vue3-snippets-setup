@@ -1,0 +1,34 @@
+{
+  "Vue3 template script style": {
+    "prefix": ["vue", "vue3"],
+    "body": [
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "<script lang=\"ts\" setup>",
+      "\t$0",
+      "</script>",
+      "<style lang=\"less\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Vue3 template script ts style less"
+  },
+  "Vue3 template": {
+    "prefix": ["template"],
+    "body": ["<template>", "\t<div>", "\t\t$0", "\t</div>", "</template>"],
+    "description": "vue template tag"
+  },
+  "Vue3 script setup lang ts": {
+    "prefix": ["script"],
+    "body": ["<script lang=\"ts\" setup>", "\t$0", "</script>"],
+    "description": "Vue3 script tag with setup lang props"
+  },
+  "Vue3 less style scoped": {
+    "prefix": ["less", "style"],
+    "body": ["<style lang=\"less\" scoped>", "\t$0", "</style>"],
+    "description": "Vue3 less style tag with lang scoped props"
+  }
+}

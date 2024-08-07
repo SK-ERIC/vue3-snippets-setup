@@ -1,0 +1,56 @@
+{
+  "name": "vue3-snippets-setup",
+  "version": "0.0.1",
+  "description": "vue3 snippets extension for vscode",
+  "publisher": "SK-ERIC",
+  "icon": "assets/logo.png",
+  "keywords": [
+    "vue",
+    "snippets",
+    "vue3",
+    "setup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SK-ERIC/vue3-snippets-setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SK-ERIC/vue3-snippets-setup.git/issues",
+    "email": "graceful.sk0@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "vue",
+        "aliases": [
+          "Vue",
+          "vue"
+        ],
+        "extensions": [
+          ".vue"
+        ]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "import": {
+    "prefix": "import",
+    "body": ["import $1 from '$2'"],
+    "description": "import ... from ..."
+  },
+  "console.log": {
+    "prefix": ["log", "clg"],
+    "body": ["console.log(`output->${0}`,${0:name})"],
+    "description": "console.log"
+  }
+}
